@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-page</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        #ann{
+            float:right ;
+            padding:10px; 
+            background-color:rgb(250, 98, 98);
+            color:black;
+        }
+        fieldset{
+            padding-left:30px;
+            float: right;
+            width:450px;
+            height:250px;
+            background-color:aliceblue;
+            border-style: double;
+            border:2px solid black;
+            border-spacing: 10px;
+            padding-bottom:30px;
+        }
+        input{
+            padding:5px;
+            justify-content: space-between;
+        }
+        .about{
+            border:5px solid black;
+            padding:20px;
+            width:700px;
+            border-style: double;
+            border-spacing: 10px;
+            background-color: aliceblue;
+        }
+        .news{
+            background-color:aliceblue;
+            padding-right:10px;
+            padding-bottom:30px;
+        }
+        #reset{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+    <marquee class="clgname">NATIONAL INSTITUTE OF TECHNOLOGY,ANDHRA PRADESH</marquee>
+        <div class="container">
+            
+        <div class="menubar">
+            <img src="\logo.png" class="logo">
+            <ul>
+                <li ><a class="nav-item" href="/">Home</a></li>
+                <li><a class="nav-item" href="contact.html">Contact</a></li>
+                <li> <a class="nav-item" href="about.html">About</a></li>
+                <li><a href="studentlogin.html">Student-login</a> </li>
+                <li><a href="facultylogin.html">Faculty-login</a>  </li>
+            </ul>
+        </div>
+        
+    </div>
+    
+     <!-- <div class="main-section" style="background:#f0f3fa;">
+    <div class="container">
+        <div class="event">
+            <h2 class="heading">Department News</h2>
+            <div>
+                <marquee direction="up" scrollamount="7" style="height:340px;">
+                <ul>
+                    <%for(var i=0;i<data.length;i++){%>
+                        <li><%=data[i].ann %></li> 
+                     <%}%>
+                </ul></marquee>
+            </div>
+        </div>
+        <div class="event">
+            <h2 class="heading">Events</h2>
+            <div>
+                <ul>
+                    <li><span class="event-date">04 <br>April</span> Good Friday Holiday.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="event">
+            <h2 class="heading">Notice Boards</h2>
+            <div>
+                <ul>
+                    <li>Dbms project reviews started.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>  -->
+    <div class="news">
+        <form action="/dept_news" method="post">
+            <fieldset>
+                <legend><pre>  <h3>To display announcemts</h3>  </pre></legend>
+                <br><br>
+                <p>To display announcemts click yes and submit.</p>
+                <input type="radio" name="ansy" >
+                <label for="yes">YES</label>
+                <br><input type="radio" name="ansn">
+                <label for="no">NO</label>
+                <br><input id="submit" type="submit" value="submit"><br>
+                <input type="reset" id="reset" value="reset">              
+                <BR>
+            </fieldset>
+        </form>
+    </div>
+    
+    
+    <div class="about">
+        <h2>About the Institute</h2>
+         <p>National Institute of Technology, Andhra Pradesh is the 31st institution among the chain of NITs started by the Government of India. NIT Andhra Pradesh is established in the state of Andhra Pradesh recently in the academic year 2015 – 2016. Currently the Institute is offering B.Tech., M.Tech., Ph.D. and MS programmes.
+
+            A new campus has been established with 172.6 acres of land adjacent to Chennai-Kolkata Highway (NH-16) in the air-strip lands of Tadepalligudem. CPWD had taken up the construction activity for all the buildings using Prefabrication construction technology. The construction work of Phase 1A buildings (Academic & laboratory complexes, Hostels, faculty and staff quarters etc.) is already completed. Presently the institute is fully running from the permanent campus. The construction works of Phase 1B is also almost completed which include additional academic & Laboratory infrastructure along with fullfledged recreation & students amenities centre.</p>
+    </div>
+    <script src="pr.js"></script>
+</body>
+</html>

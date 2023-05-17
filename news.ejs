@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department-news</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        table, th, td {
+             border:1px solid black;
+             padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <marquee class="clgname">NATIONAL INSTITUTE OF TECHNOLOGY,ANDHRA PRADESH</marquee>
+        <div class="container">
+            
+        <div class="menubar">
+            <img src="\logo.png" class="logo">
+            <ul>
+                <li ><a class="nav-item" href="/">Home</a></li>
+                <!-- <li><a class="nav-item" href="#">Year</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">first year</a> </li>
+                        <li><a href="#">second year</a> </li>
+                        <li><a href="#">third year</a> </li>
+                        <li><a href="#">fourth year</a> </li>
+                    </ul>
+                </div>
+                </li> -->
+                <li><a class="nav-item" href="contact.html">Contact</a></li>
+                <li> <a class="nav-item" href="about.html">About</a></li>
+                <li><a href="studentlogin.html">Student-login</a> </li>
+                <li><a href="facultylogin.html">Faculty-login</a>  </li>
+            </ul>
+        </div>
+    </div>
+            
+           <!-- !-- <a class="create-annon" href="ann.html">Announcement</a> --> 
+           
+
+            <div class="event">
+                <h2 class="heading">Department News</h2>
+                <div>
+                    <marquee direction="up" scrollamount="7" style="height:340px;">
+                    <ol>
+                        <%for(var i=0;i<data2.length;i++){%>
+                            <li>==>  <%=data2[i].ann %></li> 
+                        <%}%>
+                    </ol></marquee>
+                </div>
+            </div>
+           <div class="event">
+            <h2 class="heading">Academic calender</h2>
+            <div>
+                <table>
+                    <tr>
+                        <th>EVENT</th>
+                        <th>SEMESTER 1</th>
+                        <th>SEMESTER 2</th>
+                    </tr>
+                    <%for(var i=0;i<data3.length;i++){%>
+                    <tr>
+                        
+                            <td><%=data3[i].event%></td>
+                            <td><%=data3[i].sem1%></td>
+                            <td><%=data3[i].sem2%></td>
+                        
+                    </tr>
+                    <%}%>
+                </table>
+                    
+                
+            </div>
+        </div>
+        <div class="event">
+            <h2 class="heading">Time-Table</h2>
+            <div>
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th>9:30 to 12:30</th>
+                        <th>12:30 to 2:00</th>
+                        <th>2:00 to 3:00</th>
+                        <th>3:00 to 4:00</th>
+                        <th>4:00 to 5:00</th>
+                        <th>5:00 to 5:30</th>
+                    </tr>
+                    <%for(var i=0;i<data4.length;i++){%>
+                    <tr>
+                        
+                            <td><%=data4[i].theday%></td>
+                            <td><%=data4[i].morning%></td>
+                            <td><%=data4[i].twelvetotwothirty%></td>
+                            <td><%=data4[i].twotothree%></td>
+                            <td><%=data4[i].threetofour%></td>
+                            <td><%=data4[i].fourtofive%></td>
+                            <td><%=data4[i].fivetofivethirty%></td>
+                        
+                    </tr>
+                    <%}%>
+                </table>
+                    
+                
+            </div>
+        </div>  
+    
+    
+    <!-- <input type="button" value="BACK"> -->
+</body>
+</html>

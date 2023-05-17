@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcement-add-page</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .heading{
+            text-align:center;
+            color:black;
+        }
+         .add-info{
+            padding:10px 20px 10px 20px;
+            background-color: rgb(30, 163, 215);
+            border-radius: 3px;
+            border-color: rgb(0, 136, 189);
+            margin-top:150px;
+        } 
+        .add-info:hover{
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <marquee class="clgname">NATIONAL INSTITUTE OF TECHNOLOGY,ANDHRA PRADESH</marquee>
+        <div class="container">
+            
+        <div class="menubar">
+            <img src="\logo.png" class="logo">
+            <ul>
+                <li ><a class="nav-item" href="/">Home</a></li>
+                <li><a class="nav-item" href="#">Year</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">first year</a> </li>
+                        <li><a href="#">second year</a> </li>
+                        <li><a href="#">third year</a> </li>
+                        <li><a href="#">fourth year</a> </li>
+                    </ul>
+                </div>
+                </li>
+                <li><a class="nav-item" href="contact.html">Contact</a></li>
+                <li> <a class="nav-item" href="about.html">About</a></li>
+                <li><a href="studentlogin.html">Student</a> </li>
+                <li><a href="facultylogin.html">Log-out</a>  </li>
+            </ul>
+        </div>
+    <div class="add">
+        <form action="/announce" method="post">
+            <h1 class="heading">Welcome to announcement page</h1>
+            <h1 class="heading">You can add announcements that you want to announce to students</h1><br><br>
+            <h4>Fill the information you want to inform to students in the below space :</h4>
+            <textarea rows="10" cols="100" name="ann" id="announcement" placeholder="Enter information here..."></textarea>
+            <button class="add-info" >Add</button>
+        </form>
+        
+    </div>
+      <script src="pr.js"></script>
+</body>
+</html>

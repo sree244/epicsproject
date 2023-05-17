@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS251</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .table-data{
+            text-align: center;
+            padding-left:500px;
+            padding-top:200px;
+        }
+        table{
+            border-style:dashed;
+            border:2px solid black;
+             /* padding:10px; */
+        }
+         th, tr,td {
+              border:2px solid black; 
+              padding:10px;
+        }
+        input{
+            padding:10px;
+        }
+        .update{
+            color:black;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float:right;
+            background-color: #45a049;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <marquee class="clgname">NATIONAL INSTITUTE OF TECHNOLOGY,ANDHRA PRADESH</marquee>
+    <div class="container">
+        
+    <div class="menubar">
+        <img src="\logo.png" class="logo">
+        <ul>
+            <li ><a class="nav-item" href="/">Home</a></li>
+            <li><a class="nav-item" href="#">Year</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">first-year</a> 
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">CS101</a> </li>
+                                <li><a href="#">CS102</a> </li>
+                            </ul>
+                        </div></li>
+                    <li><a href="#">second-year</a>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">CS201</a> </li>
+                                <li><a href="#">CS202</a> </li>
+                                <li><a href="#">CS203</a> </li>
+                                <li><a href="#">CS204</a> </li>
+                                <li><a href="#">CS205</a> </li>
+                                <li><a href="#">CS251</a> </li>
+                                <li><a href="#">CS252</a> </li>
+                                <li><a href="/cs253.html">CS253</a> </li>
+                                <li><a href="#">CS254</a> </li>
+                                <li><a href="#">CS255</a> </li>
+                                <li> <a href=#>CS256</a></li>
+                                <li> <a href=#>CS257</a></li>
+                            </ul>
+                        </div> </li>
+                    <li><a href="#">third-year</a> 
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">CS301</a> </li>
+                                <li><a href="#">CS302</a> </li>
+                                <li><a href="#">CS303</a> </li>
+                                <li><a href="#">CS304</a> </li>
+                                <li><a href="#">CS351</a> </li>
+                                <li><a href="#">CS352</a> </li>
+                                <li><a href="#">CS353</a> </li>
+                                <li><a href="#">CS354</a> </li>
+                            </ul>
+                        </div></li>
+                    <li><a href="#">fourth-year</a> 
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">CS401</a> </li>
+                                <li><a href="#">CS402</a> </li>
+                                <li><a href="#">CS403</a> </li>
+                                <li><a href="#">CS411</a> </li>
+                                <li><a href="#">CS412</a> </li>
+                                <li><a href="#">CS413</a> </li>
+                                <li><a href="#">CS421</a> </li>
+                                <li><a href="#">CS422</a> </li>
+                                <li><a href="#">CS423</a> </li>
+                                <li><a href="#">CS424</a> </li>
+                                <li> <a href=#>CS425</a></li>
+                                <li> <a href=#>CS426</a></li>
+                            </ul>
+                        </div></li>
+                </ul>
+            </div>
+            </li>
+            <li><a class="nav-item" href="contact.html">Contact</a></li>
+            <li> <a class="nav-item" href="about.html">About</a></li>
+            <li><a class="nav-item" href="studentlogin.html">Student</a> </li>
+            <li><a class="nav-item" href="facultylogin.html">Log-Out</a>  </li>
+            <li><a class="nav-item" href="annadd.html">Announcements</a></li>
+        </ul>
+    </div>
+    <div class="update_data">
+        <form action="/updata_cs253" method="post">
+             <table>
+                <tr>
+                    <th>Roll:no:</th>
+                    <th>Minor1</th>
+                    <th>Minor2</th>
+                    <th>Mid</th>
+                    <th>End</th>
+                    <th>Total</th>
+                    <th>Attendance</th> 
+                    
+                </tr>
+                <tr>
+                    <td><input type="text" name="rollno"></td>
+                    <td><input type="text" name="minor1"></td>
+                    <td><input type="text" name="minor2"></td>
+                    <td><input type="text" name="mid"></td>
+                    <td><input type="text" name="end"></td>
+                    <td><input type="text" name="total"></td>
+                    <td><input type="text" name="attendance"></td>
+                    
+                </tr>
+             </table>
+             <input type="submit" class="update" value="update" name="update">
+        </form>
+    </div>
+    <script src="pr.js"></script>
+</body>
+</html>

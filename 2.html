@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second-years</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <marquee class="clgname">NATIONAL INSTITUTE OF TECHNOLOGY,ANDHRA PRADESH</marquee>
+        <div class="container">
+            
+        <div class="menubar">
+            <img src="\logo.png" class="logo">
+            <ul>
+                <li ><a class="nav-item" href="/">Home</a></li>
+                <li><a class="nav-item" href="#">Year</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">first year</a> </li>
+                        <li><a href="#">second year</a> </li>
+                        <li><a href="#">third year</a> </li>
+                        <li><a href="#">fourth year</a> </li>
+                    </ul>
+                </div>
+                </li>
+                <li><a class="nav-item" href="contact.html">Contact</a></li>
+                <li> <a class="nav-item" href="about.html">About</a></li>
+                <li><a href="studentlogin.html">Log-Out</a> </li>
+            </ul>
+        </div>
+    <h3>Enter the details to display required data</h3>
+    <div class="container1">
+            <form action="/database_table" method="post">
+                <div class="row">
+                    <div class="col-25">
+                      <label for="sub">Roll:no:</label>
+                    </div>
+                    <div class="col-75">
+                      <input id="user" type="text" name="rollno" required>
+                    </div>
+                  </div>
+                <!-- <div class="row">
+                    <div class="col-25">
+                      <label for="sub">Subject-name:</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="sub" name="subject" required>
+                        <option value="CS251">CS251</option>
+                        <option value="CS252" >CS252</option>
+                        <option value="CS253">CS253</option>
+                        <option value="CS254">CS254</option>
+                        <option value="CS255">CS255</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="exam">Exam-type:</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="exam" name="exam" required>
+                        <option value="minor1">minor1</option>
+                        <option value="minor2">minor2</option>
+                        <option value="mid">mid</option>
+                        <option value="endm">endm</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                        <label for="total">select total if you want total of all marks in exam up to now.</label>
+                      </div>
+                    <div class="col-75">
+                      <input type="checkbox" id="marks" name="total" value="marks">
+                      <label for="marks">Total</label>
+                    </div>
+                  </div> -->
+                  <br>
+                  <div class="row">
+                    <input type="submit" value="show">
+                  </div>
+             </form>
+    </div>
+    
+    <script src="pr.js"></script>
+</body>
+</html>

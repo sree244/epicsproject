@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+     <link rel="stylesheet" href="home.css"> 
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- <header>
+        <nav>
+            <a class="nav-item" href="home.html">Home</a>
+            <a class="nav-item" href="contact.html">Contact</a>
+            <a class="nav-item" href="about.html">About</a>
+             <a class="create-annon" href="ann.html">Announcement</a> -->
+            <!-- <a class="nav-item" href="studentlogin.html">Student</a> 
+            <a class="nav-item" href="facultylogin.html">Faculty</a>
+        </nav>
+    </header> --> 
+    <marquee class="clgname">NATIONAL INSTITUTE OF TECHNOLOGY,ANDHRA PRADESH</marquee>
+        <div class="container">
+            
+        <div class="menubar">
+            <img src="\logo.png" class="logo">
+            <ul>
+                <li ><a class="nav-item" href="/">Home</a></li>
+                <li><a class="nav-item" href="#">Year</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">first year</a> </li>
+                        <li><a href="#">second year</a> </li>
+                        <li><a href="#">third year</a> </li>
+                        <li><a href="#">fourth year</a> </li>
+                    </ul>
+                </div>
+                </li>
+                <li><a class="nav-item" href="contact.html">Contact</a></li>
+                <li> <a class="nav-item" href="about.html">About</a></li>
+                <li><a class="nav-item" href="studentlogin.html">Student</a> </li>
+                <li><a class="nav-item" href="facultylogin.html">Faculty</a>  </li>
+            </ul>
+        </div>
+        <div class="container1">
+            <form action="/student" method="post">
+                <div class="row">
+                    <div class="col-25">
+                      <label for="sub">Username:</label>
+                    </div>
+                    <div class="col-75">
+                      <input id="user" type="text" name="username" required>
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col-25">
+                      <label for="sub">Password:</label>
+                    </div>
+                    <div class="col-75">
+                      <input id="password" type="password" name="password" required>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <input type="submit" value="Submit">
+                  </div>
+             </form>
+    </div>
+    <!-- <div>
+        <form action="/student" method="post">
+            username
+            <span class="user">
+                <ion-icon name="person"></ion-icon>
+            </span>
+            <input type="text" placeholder="username" name="username" required/><br><br> 
+            password
+            <span class="unlock">
+                <ion-icon name="lock-open"></ion-icon>
+            </span>
+            <input type="password" placeholder="enter password" name="password" id="password" required/><br><br>
+            <button class="submit" onclick="auth()">Submit</button>
+            <p>are u faculty?</p><a class="reg" href="facultylogin.html">Faculty</a>
+        </form>
+    </div> -->
+    <script src="pr.js"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+</body>
+</html>

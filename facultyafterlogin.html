@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faculty-after-login</title>
+    <link rel="stylesheet" href="homef.css">
+    <link rel="stylesheet" href="login.css">
+    <style>
+        .container1{
+            width:70%;
+        }
+        input{
+            width:200px;
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+    <marquee class="clgname">NATIONAL INSTITUTE OF TECHNOLOGY,ANDHRA PRADESH</marquee>
+        <div class="container">
+            
+        <div class="menubar">
+            <img src="\logo.png" class="logo">
+            <ul>
+                <li ><a class="nav-item" href="/">Home</a></li>
+                <li><a class="nav-item" href="#">Year</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">first-year</a> 
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="#">CS101</a> </li>
+                                    <li><a href="#">CS102</a> </li>
+                                </ul>
+                            </div></li>
+                        <li><a href="#">second-year</a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="#">CS201</a> </li>
+                                    <li><a href="#">CS202</a> </li>
+                                    <li><a href="#">CS203</a> </li>
+                                    <li><a href="#">CS204</a> </li>
+                                    <li><a href="#">CS205</a> </li>
+                                    <li><a href="/cs251.html">CS251</a> </li>
+                                    <li><a href="/cs252.html">CS252</a> </li>
+                                    <li><a href="/cs253.html">CS253</a> </li>
+                                    <li><a href="/cs254.html">CS254</a> </li>
+                                    <li><a href="/cs255.html">CS255</a> </li>
+                                    <li> <a href=#>CS256</a></li>
+                                    <li> <a href=#>CS257</a></li>
+                                </ul>
+                            </div> </li>
+                        <li><a href="#">third-year</a> 
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="#">CS301</a> </li>
+                                    <li><a href="#">CS302</a> </li>
+                                    <li><a href="#">CS303</a> </li>
+                                    <li><a href="#">CS304</a> </li>
+                                    <li><a href="#">CS351</a> </li>
+                                    <li><a href="#">CS352</a> </li>
+                                    <li><a href="#">CS353</a> </li>
+                                    <li><a href="#">CS354</a> </li>
+                                </ul>
+                            </div></li>
+                        <li><a href="#">fourth-year</a> 
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="#">CS401</a> </li>
+                                    <li><a href="#">CS402</a> </li>
+                                    <li><a href="#">CS403</a> </li>
+                                    <li><a href="#">CS411</a> </li>
+                                    <li><a href="#">CS412</a> </li>
+                                    <li><a href="#">CS413</a> </li>
+                                    <li><a href="#">CS421</a> </li>
+                                    <li><a href="#">CS422</a> </li>
+                                    <li><a href="#">CS423</a> </li>
+                                    <li><a href="#">CS424</a> </li>
+                                    <li> <a href=#>CS425</a></li>
+                                    <li> <a href=#>CS426</a></li>
+                                </ul>
+                            </div></li>
+                    </ul>
+                </div>
+                </li>
+                <li><a class="nav-item" href="contact.html">Contact</a></li>
+                <li> <a class="nav-item" href="about.html">About</a></li>
+                <li><a class="nav-item" href="studentlogin.html">Student</a> </li>
+                <li><a class="nav-item" href="facultylogin.html">Log-Out</a>  </li>
+                <li><a class="nav-item" href="annadd.html">Announcements</a></li>
+            </ul>
+        </div>
+    <div class="container1">
+        <h3>To change timetable</h3>
+        <form action="/update_time_table" method="post">
+            <div class="row">
+                <div class="col-25">
+                  <label for="sub">Day:</label>
+                </div>
+                <div class="col-75">
+                  <input id="day" type="text" name="day" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">9:30 to 12:30 class:</label>
+                </div>
+                <div class="col-75">
+                  <input id="morning" type="text" name="morning">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">12:30 to 2:00 :</label>
+                </div>
+                <div class="col-75">
+                  <input id="lunch" type="text" name="lunch">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">2:00 to 3:00 class:</label>
+                </div>
+                <div class="col-75">
+                  <input id="two" type="text" name="two">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">3:00 to 4:00 class:</label>
+                </div>
+                <div class="col-75">
+                  <input id="three" type="text" name="three">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">4:00 to 5:00 class:</label>
+                </div>
+                <div class="col-75">
+                  <input id="four" type="text" name="four">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">5:00 to 5:30 class:</label>
+                </div>
+                <div class="col-75">
+                  <input id="five" type="text" name="five">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+        </form>
+    </div>
+    <div class="container1">
+        <h3>To change Academic calender</h3>
+        <form action="/update_academic_calender" method="post">
+            <div class="row">
+                <div class="col-25">
+                  <label for="sub">Event:</label>
+                </div>
+                <div class="col-75">
+                  <input id="event" type="text" name="event" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">Semester 1 date:</label>
+                </div>
+                <div class="col-75">
+                  <input id="sem1" type="text" name="sem1">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">Semester 2 date:</label>
+                </div>
+                <div class="col-75">
+                  <input id="sem2" type="text" name="sem2">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+        </form>
+    </div>
+    <div class="container1">
+        <h3>To change overall CGPA and SGPA of current semester of student</h3>
+        <form action="/update_cgpa_sgpa" method="post">
+            <div class="row">
+                <div class="col-25">
+                  <label for="sub">Roll:No:</label>
+                </div>
+                <div class="col-75">
+                  <input id="rollno" type="text" name="rollno" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">CGPA:</label>
+                </div>
+                <div class="col-75">
+                  <input id="cgpa" type="text" name="cgpa">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="sub">SGPA:</label>
+                </div>
+                <div class="col-75">
+                  <input id="sgpa" type="text" name="sgpa">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+        </form>
+    </div>
+    <script src="pr.js"></script>
+</body>
+</html>

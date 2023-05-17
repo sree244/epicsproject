@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-information</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .table-data{
+            text-align: 300px;
+            padding-left:300px;
+            padding-top:200px;
+        }
+        table, th, td {
+             border:2px solid black;
+             padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <marquee class="clgname">NATIONAL INSTITUTE OF TECHNOLOGY,ANDHRA PRADESH</marquee>
+    <div class="container">
+        
+    <div class="menubar">
+        <img src="\logo.png" class="logo">
+        <ul>
+            <li ><a class="nav-item" href="home.html">Home</a></li>
+            <li><a class="nav-item" href="#">Year</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">first year</a> </li>
+                    <li><a href="#">second year</a> </li>
+                    <li><a href="#">third year</a> </li>
+                    <li><a href="#">fourth year</a> </li>
+                </ul>
+            </div>
+            </li>
+            <li><a class="nav-item" href="contact.html">Contact</a></li>
+            <li> <a class="nav-item" href="about.html">About</a></li>
+            <li><a href="studentlogin.html">Log-Out</a> </li>
+        </ul>
+    </div>
+    
+    <div class="table-data">
+        <h3>Table data from cs251</h3>
+        <table id="results-table">
+            <tr>
+             <th>rollno</th>
+             <th>minor1</th>
+             <th>minor2</th>
+             <th>mid</th>
+             <th>end</th>
+             <th>total</th>
+             <th>attendance</th>
+            </tr>           
+            <tr>
+                <% for(var i=0;i<data.length;i++) { %>
+                    <td><%=data[i].rollno%></td>
+                    <td><%=data[i].minor1%></td>
+                    <td><%=data[i].minor2%></td>
+                    <td><%=data[i].mid%></td>
+                    <td><%=data[i].end%></td>
+                    <td><%=data[i].total%></td>
+                    <td><%=data[i].attendance%></td>
+                    <% } %>
+            </tr>
+            
+     </table><br><br>
+     <h3>Table data from cs252</h3>
+        <table id="results-table">
+            <tr>
+             <th>rollno</th>
+             <th>minor1</th>
+             <th>minor2</th>
+             <th>mid</th>
+             <th>end</th>
+             <th>total</th>
+             <th>attendance</th>
+            </tr>           
+            <tr>
+                <% for(var i=0;i<data1.length;i++) { %>
+                    <td><%=data1[i].rollno%></td>
+                    <td><%=data1[i].minor1%></td>
+                    <td><%=data1[i].minor2%></td>
+                    <td><%=data1[i].mid%></td>
+                    <td><%=data1[i].end%></td>
+                    <td><%=data1[i].total%></td>
+                    <td><%=data1[i].attendance%></td>
+                    <% } %>
+            </tr>
+            
+     </table><br><br>
+     <h3>Table data from cs253</h3>
+        <table id="results-table">
+            <tr>
+             <th>rollno</th>
+             <th>minor1</th>
+             <th>minor2</th>
+             <th>mid</th>
+             <th>end</th>
+             <th>total</th>
+             <th>attendance</th>
+            </tr>           
+            <tr>
+                <% for(var i=0;i<data2.length;i++) { %>
+                    <td><%=data2[i].rollno%></td>
+                    <td><%=data2[i].minor1%></td>
+                    <td><%=data2[i].minor2%></td>
+                    <td><%=data2[i].mid%></td>
+                    <td><%=data2[i].end%></td>
+                    <td><%=data2[i].total%></td>
+                    <td><%=data2[i].attendance%></td>
+                    <% } %>
+            </tr>
+            
+     </table><br><br>
+      <h3>Table data from cs254</h3>
+        <table id="results-table">
+            <tr>
+             <th>rollno</th>
+             <th>minor1</th>
+             <th>minor2</th>
+             <th>mid</th>
+             <th>end</th>
+             <th>total</th>
+             <th>attendance</th>
+            </tr>           
+            <tr>
+                <% for(var i=0;i<data3.length;i++) { %>
+                    <td><%=data3[i].rollno%></td>
+                    <td><%=data3[i].minor1%></td>
+                    <td><%=data3[i].minor2%></td>
+                    <td><%=data3[i].mid%></td>
+                    <td><%=data3[i].end%></td>
+                    <td><%=data3[i].total%></td>
+                    <td><%=data3[i].attendance%></td>
+                    <% } %>
+            </tr>
+            
+     </table><br><br>
+     <h3>Table data from cs255</h3>
+        <table id="results-table">
+            <tr>
+             <th>rollno</th>
+             <th>minor1</th>
+             <th>minor2</th>
+             <th>mid</th>
+             <th>end</th>
+             <th>total</th>
+             <th>attendance</th>
+            </tr>           
+            <tr>
+                <% for(var i=0;i<data4.length;i++) { %>
+                    <td><%=data4[i].rollno%></td>
+                    <td><%=data4[i].minor1%></td>
+                    <td><%=data4[i].minor2%></td>
+                    <td><%=data4[i].mid%></td>
+                    <td><%=data4[i].end%></td>
+                    <td><%=data4[i].total%></td>
+                    <td><%=data4[i].attendance%></td>
+                    <% } %>
+            </tr>
+            
+     </table> <br><br>
+     <h3>overall CGPA and SGPA</h3>
+        <p>CGPA will be displayed only if sem exams complted and results are released!!</p>
+        <table id="results-table">
+            <tr>
+             <th>rollno</th>
+             <th>CGPA</th>
+             <th>SGPA</th>
+            </tr>
+            <tr>
+             <%for(var i=0;i<data5.length;i++){%>
+                <td><%=data5[i].rollno %></td> 
+                <td><%=data5[i].cgpa%></td> 
+                <td><%=data5[i].sgpa%></td> 
+             <%}%>
+           </tr>
+           
+     </table>
+    </div>
+    
+    
+    <script>
+        window.results=results;
+    </script>
+</body>
+</html>
